@@ -1,0 +1,21 @@
+# Backend Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+.env.local
+!.env.example
+
+# Uploaded media (preserve directory via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
